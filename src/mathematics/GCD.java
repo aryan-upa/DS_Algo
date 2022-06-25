@@ -17,6 +17,9 @@ public class GCD {
                 Let 'b' be smaller than 'a' .
                 gcd(a, b) = gcd (a - b, b)
 
+        TC :
+        ASC : O(1)
+
      */
     public int method2(int a, int b) {
         while(a != b) {
@@ -28,6 +31,10 @@ public class GCD {
         return a;
     }
 
+    /*
+        TC : O(log(min(a,b))
+        ASC : O(1)
+     */
     public int method3(int a, int b) { // Euclidean Approach, but recursive.
         if (b == 0)
             return a;
