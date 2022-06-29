@@ -17,7 +17,4 @@ public class KthBit {
             System.out.println("No");
     }
 
-    public static void main(String[] args) {
-        new KthBit().method1(5, 2);
-    }
 }
