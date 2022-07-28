@@ -16,7 +16,4 @@ public class PowerSet {
         }
     }
 
-    public static void main(String[] args) {
-        new PowerSet().powerSet(new int[]{1,2,3});
-    }
 }
